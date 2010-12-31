@@ -1,0 +1,66 @@
+Determining if the function auth_gss exists in the /usr/lib/libc-client.so failed with the following output:
+Change Dir: /home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=auth_gss   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/local/bin/gcc     -DCHECK_FUNCTION_EXISTS=auth_gss   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lc-client 
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_status'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_expunged'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_log'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_diskerror'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_exists'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_flags'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_fatal'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_critical'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_lsub'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_list'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_login'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_notify'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_searched'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_nocritical'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_dlog'
+collect2: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec] Error 1
+make[1]: Leaving directory `/home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function ssl_onceonlyinit exists in the /usr/lib/libc-client.so failed with the following output:
+Change Dir: /home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=ssl_onceonlyinit   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/local/bin/gcc     -DCHECK_FUNCTION_EXISTS=ssl_onceonlyinit   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lc-client 
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_status'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_expunged'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_log'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_diskerror'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_exists'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_flags'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_fatal'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_critical'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_lsub'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_list'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_login'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_notify'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_searched'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_nocritical'
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc-client.so: undefined reference to `mm_dlog'
+collect2: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec] Error 1
+make[1]: Leaving directory `/home/marvin/school/hiphop/05/out/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
